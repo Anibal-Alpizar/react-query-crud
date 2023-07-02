@@ -1,5 +1,9 @@
+import Products from "./components/Products";
+
 function App() {
-  return <div>Hello World</div>;
+  return (
+    <Products />
+  )
 }
 
 export default App;
