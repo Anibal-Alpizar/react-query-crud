@@ -10,6 +10,7 @@ function Products() {
   } = useQuery({
     queryKey: ["products"],
     queryFn: getProducts,
+    select: (products) => products.sort((a, b) => b.id - a.id), // sort products by id
   });
 
   if (isLoading) return <div>Loading...</div>;
