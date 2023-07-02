@@ -12,7 +12,7 @@
       "name": "mouse",
       "description": "mouse gaming",
       "price": 100,
-      "inStock": true
+      "inStock": false
     }
   ]
 }
